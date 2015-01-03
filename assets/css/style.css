@@ -215,7 +215,8 @@ a:focus {
 /*	background-color: #f0faff;*/
 /*	background-color: #31afe2;*/
 	background-color: #7cd9ff;
-	min-height: 770px;
+/*	min-height: 770px;*/
+	min-height: 100vh;
 	padding-top: 100px;
 	padding-bottom: 0px;
 	text-align: center;
@@ -313,34 +314,61 @@ a:focus {
 
 /* Testimonials Wrap */
 #twrap {
-	background: url(../img/t-back.jpg) no-repeat center top;
-	margin-top: 0px;
-	padding-top:60px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 450px;
-	width: 100%;
+/*	background: url(../img/t-back.jpg) no-repeat center top;*/
+/*	margin-top: 0px;*/
+/*	padding-top:60px;*/
+/*	text-align:center;*/
+/*	background-attachment: relative;*/
+/*	background-position: center center;*/
+/*	min-height: 450px;*/
+/*	width: 100%;*/
 	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+/*    -webkit-background-size: 100%;*/
+/*    -moz-background-size: 100%;*/
+/*    -o-background-size: 100%;*/
+/*    background-size: 100%;*/
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+    width: 100%;
+    min-height: 120px;
+    position: relative;
+/*    overflow: hidden;*/
+}
+
+#twrap video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+
+#twrap div.container {
+/*    margin-top: 180px;*/
+    max-height: 100%;
+    position: relative;
+/*    position: absolute;*/
+    z-index: 1;
+/*    padding-top: 720px;*/
 }
 
 #twrap i {
 	font-size: 50px;
-	color: white;
+	color: #000;
 	margin-bottom: 25px;
 }
 
 #twrap p {
-	color: white;
+	color: #000;
 	font-size: 15px;
 	line-height: 30px;
 }
@@ -385,6 +413,28 @@ a:focus {
 
 #footerwrap i:hover {
 	color: #00b3fe
+}
+
+/*	################################################################
+	BUY
+################################################################# */
+
+#buy{
+    min-height: 600px;
+}
+#buy h4 {
+	color: #00b3fe;
+    text-align: center;
+    font-weight: 600;
+}
+#buy p {
+    text-align: center;
+}
+#buy input[type=radio]{
+    
+}
+#buy input[type=submit]{
+    
 }
 
 /*	################################################################
@@ -499,35 +549,64 @@ csmall2 {
     /*	background-color: #f0faff;*/
     /*	background-color: #31afe2;*/
 /*        background-color: #4dcbff;*/
-        height: 100vh;
-        min-height: 900px;
+/*        height: 100vh;*/
+        min-height: 950px;
         padding-top: 100px;
         padding-bottom: 0px;
         text-align: center;
     }
 
-#headerwrap h1, h2, h3, h4, h5 {
+    #headerwrap h1, h2, h3, h4, h5 {
 /*        color: #f0f0f0;*/
     /*	color: #393939;*/
     /*	color: #cfcfcf;*/
         font-weight: 500;
         font-size: 50px;
     }
-#headerwrap h4{
+    #headerwrap h4{
         font-size: 30px;
     }
-#headerwrap h3{
+    #headerwrap h3{
         font-size: 40px;
     }
-#headerwrap h1, h2{
+    #headerwrap h1, h2{
         font-weight: 700;
         margin-bottom: 30px;
     }
 
-#headerwrap h1 {
+    #headerwrap h1 {
         color: white;
         margin-bottom: 25px;
         font-size: 100px;
         text-align: center;
+    }
+    /* Testimonials Wrap */
+    #twrap {
+    /*	background: url(../img/t-back.jpg) no-repeat center top;*/
+    /*	margin-top: 0px;*/
+    /*	padding-top:60px;*/
+    /*	text-align:center;*/
+    /*	background-attachment: relative;*/
+    /*	background-position: center center;*/
+    /*	min-height: 450px;*/
+    /*	width: 100%;*/
+
+    /*    -webkit-background-size: 100%;*/
+    /*    -moz-background-size: 100%;*/
+    /*    -o-background-size: 100%;*/
+    /*    background-size: 100%;*/
+
+    /*    -webkit-background-size: cover;*/
+    /*    -moz-background-size: cover;*/
+    /*    -o-background-size: cover;*/
+    /*    background-size: cover;*/
+        width: 100%;
+        min-height: 720px;
+        position: relative;
+    /*    overflow: hidden;*/
+    }
+    #buy{
+        height: 100vh;
+        min-height: 885px;
     }
 }

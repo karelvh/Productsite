@@ -67,7 +67,7 @@
 					<h2>without keys</h2>				
 				</div>
 				<div class="col-lg-8 col-lg-offset-2 himg">
-					<img src="assets/img/lockitronproduct.png" class="img-responsive">
+					<img class="img-responsive" src="assets/img/lockitronproduct.png">
 				</div>
 			</div><!-- /row -->
 	    </div> <!-- /container -->
@@ -77,7 +77,7 @@
 	 SERVICE LOGOS
 	 ***************************************************************************************************************** -->
 	 <div id="service">
-	     <div class="invisibleScrollheader"></div>
+	   <div class="invisibleScrollheader"></div>
 	 	<div class="container">
  			<div class="row centered">
  				<div class="col-md-4">
@@ -105,18 +105,17 @@
 	 APP
 	 ***************************************************************************************************************** -->
 	 <div id="twrap">
+<!--	     <iframe id="videoPlayer" width="560" height="315" src="http://www.youtube.com/embed/N9R8KkDkyk4?autoplay=1&controls=0&loop=1&frameborder=0&enablejsapi=1" frameborder="0"></iframe>-->
+    <video class="img-responsive" src="assets/video/demo.mp4" autoplay="true" loop="true" muted="true" ></video>
+<!--
 	 	<div class="container centered">
 	 		<div class="row">
 	 			<div class="col-lg-8 col-lg-offset-2">
 	 			<i class="fa fa-comment-o"></i>
-<!--	 			CHANGE THE FA ICON-->
- 			
- 			
-	 			<p>Thanks to the Lockitron it is easy to lock and unlok your door. But it doesn't stop there, Lockitron will notify you if your door was opened or if someone is knocking on the door.</p>
-<!--	 			CHANGE BACKGROUND TO SCREENSHOT OF THE APP-->
+	 			<p>Thanks to the Lockitron it is easy to lock and unlock your door. But it doesn't stop there, Lockitron will notify you if your door was opened or if someone is knocking on the door.</p>
 	 			</div>
 	 		</div><! --/row -->
-	 	</div><! --/container -->
+<!--	 	</div><! --/container -->
 	 </div><! --/twrap -->
 	<!-- *****************************************************************************************************************
 	 SPECS
@@ -148,11 +147,10 @@
 	 	</div><! --/container -->
 	 </div><! --/service --> 
 	<!-- *****************************************************************************************************************
-	 PORTFOLIO SECTION
+	 MEDIA SECTION
 	 ***************************************************************************************************************** -->
 	 <div id="portfoliowrap">
         <h3>MEDIA</h3>
-
         <div class="portfolio-centered">
             <div class="recentitems portfolio">
 				<div class="portfolio-item graphic-design">
@@ -334,7 +332,45 @@ If you require access, please contact the owner of this lock to change this key.
 		 </div><! --/container -->
 	 </div><! --/cwrap -->
 
-	<!-- *****************************************************************************************************************
+    <!-- *****************************************************************************************************************
+	 BUY
+	 ***************************************************************************************************************** -->
+	 <div id="buy">
+        <div class="invisibleScrollheader"></div>
+	     <div class="container">
+            <div class="row inner">	 		
+	 		    <div class="col-lg-12">
+	 			    <h4>Buy Now</h4><br>
+	 			    <p>Choose a color.</p>
+	 		    </div>	 		
+	 		    <div class="col-lg-8">
+ 		            <img src="assets/img/lockitronrow.jpg" alt="lockitron products">
+                </div>
+	 		    <div class="col-lg-4">
+                    <div class="radio">
+                        <label>
+                            <input id="colorBlack" type="radio" name="color" value="black" onclick="colorBuyButton()">Black
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                           <input id="colorGreen" type="radio" name="color" value="green" onclick="colorBuyButton()">Green
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                           <input id="colorSilver" type="radio" name="color" value="silver" onclick="colorBuyButton()">Silver
+                        </label> 
+                    </div>
+                    <button id="buyButton" type="button" class="btn btn-default btn-lg" disabled="disabled">Choose a color first</button>                  
+	 		    </div> 		
+	 	    </div><! --/row -->
+        </div><! --/container -->
+	 </div><! --/buy -->
+
+
+    	     	     	     
+	 <!-- *****************************************************************************************************************
 	 FOOTER
 	 ***************************************************************************************************************** -->
 	 <div id="footerwrap">
@@ -376,6 +412,7 @@ If you require access, please contact the owner of this lock to change this key.
     <script src="assets/js/dropdown.js"></script>
     <script src="assets/js/jquery.smooth-scroll.min.js"></script>
     <script src="assets/js/jquery.ba-bbq.js"></script>
+    <script src="assets/js/buyButton.js"></script>
     
 <!--    SMOOTH SCROLLER =========================================================-->
     <script>
@@ -405,7 +442,8 @@ If you require access, please contact the owner of this lock to change this key.
           $(window).trigger('hashchange');
         });
     </script>
-       
+
+
 <!--CHANGE ACTIVE CLASS WHEN SCROLLING =======================================-->
     <script>
         $(document).ready(function(){
