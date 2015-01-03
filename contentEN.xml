@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-	<cars>
-		<car>
-			<Title>Spyder</Title>
-			<Manufacturer>Ferrari</Manufacturer>
-		</car>
-		<car>
-			<Title>M3</Title>
-			<Manufacturer>BMW</Manufacturer>
-		</car>
-		<car>
-			<Title>Gallardo</Title>
-			<Manufacturer>Lamborghini</Manufacturer>
-		</car>
-	</cars>
+	<specs>
+		<spec>
+			<Title>Wireless</Title>
+			<Fa>fa-wifi</Fa>
+			<Text>Lockitron comes with wifi and Bluetooth build in. This allows keyless entry and allows you to control Lockitron receive notifications from Lockitron anywhere in the world.</Text>
+		</spec>
+		<spec>
+			<Title>Mobile</Title>
+			<Fa>fa-mobile</Fa>
+			<Text>Locktron runs on any device. This is thanks to our mobile website and apps. Older phones can control Lockitron through text message commands.</Text>
+		</spec>
+		<spec>
+			<Title>Modify</Title>
+			<Fa>fa-cogs</Fa>
+			<Text>Lockitron works with <a href="https://ifttt.com/" target="_blank">IFTTT</a>, allowing for endless posibilities. You can also use the Locktron <a href="https://api.lockitron.com/v2/documentation" target="_blank">API endpoints.</a></Text>
+		</spec>
+		<spec>
+			<Title>Efficient</Title>
+			<Fa>fa-power-off</Fa>
+			<Text>Lockitron is incredibly efficient. It uses 4 AA batteries that last up to 6 months.</Text>
+		</spec>
+	</specs>
