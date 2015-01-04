@@ -1,0 +1,67 @@
+commit 48258b90bf909ba4e34141adb8f97e7282b7239d
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Sun Jan 4 18:52:03 2015 +0100
+
+    deleted smint (no longer required)
+
+commit 796f66da9245c8a75e0e0440cb9050c325899663
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Sat Jan 3 19:25:12 2015 +0100
+
+    Addad an xml reader and media
+
+commit 0cd82a002651a5d335e9e597f4509bb3acb73dc2
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Sat Jan 3 17:35:30 2015 +0100
+
+    Added a buy section + video
+
+commit 37394128aa877d4f494ba528e92bc70a20efc2a5
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Sat Jan 3 17:34:08 2015 +0100
+
+    added a buy section
+
+commit 30e2187843b3d2674ce3c5972fbc209eee2501bd
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Fri Jan 2 10:54:55 2015 +0100
+
+    added target="_blank" to links
+
+commit c36ea00b014cdd55c210127d5e2f5d7dcf279352
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Wed Dec 31 10:09:49 2014 +0100
+
+    delete
+
+commit d563f4fba9913f1394203ef630795c9f5fb58497
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Wed Dec 31 10:09:30 2014 +0100
+
+    removal
+
+commit d23440f7dd31235df53200e63a976dce664b3ba0
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Wed Dec 31 10:03:48 2014 +0100
+
+    updated footer
+
+commit d7d8ae59c293d6841a5362bae1c15016e0548049
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Mon Dec 29 11:20:35 2014 +0100
+
+    smoothscroll
+    
+    smoothscroll to top when pressing de lockitron name
+
+commit 0bc98e64aa55941a498fd107353314cc668affed
+Author: vhKarel <vhKarel@users.noreply.github.com>
+Date:   Sat Dec 27 22:24:54 2014 +0100
+
+    Create README.md
+
+commit 108291fa9dee98306f39efcbe4b49f4f5eaa402a
+Author: vhKarel <karel@kvHs-MBA-Pro.local>
+Date:   Sat Dec 27 22:21:47 2014 +0100
+
+    initial commit
