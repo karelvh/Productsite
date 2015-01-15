@@ -215,8 +215,8 @@ a:focus {
 /*	background-color: #f0faff;*/
 /*	background-color: #31afe2;*/
 	background-color: #7cd9ff;
-/*	min-height: 770px;*/
-	min-height: 100vh;
+	min-height: 790px;
+	height: 100vh;
 	padding-top: 100px;
 	padding-bottom: 0px;
 	text-align: center;
@@ -314,24 +314,6 @@ a:focus {
 
 /* Testimonials Wrap */
 #twrap {
-/*	background: url(../img/t-back.jpg) no-repeat center top;*/
-/*	margin-top: 0px;*/
-/*	padding-top:60px;*/
-/*	text-align:center;*/
-/*	background-attachment: relative;*/
-/*	background-position: center center;*/
-/*	min-height: 450px;*/
-/*	width: 100%;*/
-	
-/*    -webkit-background-size: 100%;*/
-/*    -moz-background-size: 100%;*/
-/*    -o-background-size: 100%;*/
-/*    background-size: 100%;*/
-
-/*    -webkit-background-size: cover;*/
-/*    -moz-background-size: cover;*/
-/*    -o-background-size: cover;*/
-/*    background-size: cover;*/
     width: 100%;
     min-height: 120px;
     position: relative;
@@ -342,7 +324,7 @@ a:focus {
     position: absolute;
     left: 50%;
     top: 50%;
-    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+/*     The following will size the video to fit the full container.*/
     min-width: 100%;
     min-height: 100%;
     -webkit-transform: translate(-50%,-50%);
@@ -538,12 +520,26 @@ csmall2 {
 }
 
 /*============================DESKTOP STYLE=====================*/
+@media screen and (min-width:520px){
+    /* Testimonials Wrap */
+    #twrap {
+        width: 100%;
+        min-height: 400px;
+        position: relative;
+    /*    overflow: hidden;*/
+    }
+    #buy{
+        height: 100vh;
+        min-height: 740px;
+    }
+}
+
 @media screen and (min-width:768px){
     #headerwrap {
     /*	background-color: #f0faff;*/
     /*	background-color: #31afe2;*/
 /*        background-color: #4dcbff;*/
-/*        height: 100vh;*/
+        height: 100vh;
         min-height: 950px;
         padding-top: 100px;
         padding-bottom: 0px;
@@ -576,24 +572,6 @@ csmall2 {
     }
     /* Testimonials Wrap */
     #twrap {
-    /*	background: url(../img/t-back.jpg) no-repeat center top;*/
-    /*	margin-top: 0px;*/
-    /*	padding-top:60px;*/
-    /*	text-align:center;*/
-    /*	background-attachment: relative;*/
-    /*	background-position: center center;*/
-    /*	min-height: 450px;*/
-    /*	width: 100%;*/
-
-    /*    -webkit-background-size: 100%;*/
-    /*    -moz-background-size: 100%;*/
-    /*    -o-background-size: 100%;*/
-    /*    background-size: 100%;*/
-
-    /*    -webkit-background-size: cover;*/
-    /*    -moz-background-size: cover;*/
-    /*    -o-background-size: cover;*/
-    /*    background-size: cover;*/
         width: 100%;
         min-height: 720px;
         position: relative;
@@ -602,5 +580,15 @@ csmall2 {
     #buy{
         height: 100vh;
         min-height: 885px;
+    }
+}
+
+@media screen and (min-width:1500px){
+    /* Testimonials Wrap */
+    #twrap {
+        width: 100%;
+        min-height: 1200px;
+        position: relative;
+    /*    overflow: hidden;*/
     }
 }

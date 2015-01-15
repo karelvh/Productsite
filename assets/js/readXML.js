@@ -1,4 +1,4 @@
-var specs = [];
+//var specs = [];
 
 $(function(){
     //console.log("dom ready");
@@ -12,6 +12,7 @@ function downloadSpecs(){
         type: "GET",
         success: function(xml) {
 //            console.log(xml);
+            //fa = font awesom tag
             $(xml).find('spec').each(function(){
                 var fa = $(this).find('Fa').text();
                 var title = $(this).find('Title').text();
